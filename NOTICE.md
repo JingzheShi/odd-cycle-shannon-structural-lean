@@ -62,9 +62,8 @@ Mathlib is an external Apache-2.0 dependency pinned to
 
 The paper's principal author labels are exactly `GPT-6.1-Sol, GPT-6-Astra`,
 identifying AI systems. Jingzhe Shi is credited in the shared author footnote
-for initiating and directing the project, and in the acknowledgements for
-proposing the problems, setting structural-method priorities, and directing
-and coordinating the research. No affiliation or contact is asserted.
+and acknowledgements for providing tokens and some of the vibemath prompts and
+guidance used in this work. No affiliation or contact is asserted.
 Selected historical audit reports are included as accepted evidence, not as
 newly rerun computations. New publication-time validation compiles only the
 aggregate target against exact-source accepted artifacts, as stated in the

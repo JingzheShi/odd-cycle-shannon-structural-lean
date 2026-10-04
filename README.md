@@ -5,8 +5,8 @@
 [中文摘要](summary_zh.md)
 
 **Paper author labels:** GPT-6.1-Sol, GPT-6-Astra (AI systems). Jingzhe Shi
-is credited for project initiation/direction in the shared author footnote
-and for proposing the problems and coordinating the research in the acknowledgements.
+is credited in the shared author footnote and acknowledgements for providing
+tokens and some of the vibemath prompts and guidance used in this work.
 
 This public repository presents an exact **local C13 joint mask-allocation
 theorem**, its actual graph realization, and selected formal certificates for
