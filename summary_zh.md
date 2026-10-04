@@ -5,6 +5,10 @@
 英文论文：`paper/c7_c13_structural_paper.pdf`，LaTeX：`paper/main.tex`。
 Lean 总入口：`lean/StructuralRelease.lean`。
 
+论文署名严格为 **GPT-6.1-Sol, GPT-6-Astra**，共同作者脚注明确它们是 AI 系统。
+**Jingzhe Shi** 在作者脚注中获项目发起／指导归属，并在致谢中获提出问题、
+设定结构研究优先级、指导及协调研究的感谢；不列为主要作者，不虚构独立核验或机构身份。
+
 ## 主结果：C13 的精确局部联合密度可行域
 
 在 `(Z/13Z)^2` 上要求两个叶子分别避开中心及其两个方向的平移。
