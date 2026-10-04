@@ -1,0 +1,405 @@
+{
+  "task": "actual nonaffine three-block separation witness",
+  "first": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      3,
+      6,
+      3
+    ],
+    [
+      4,
+      1,
+      4
+    ],
+    [
+      5,
+      5,
+      5
+    ],
+    [
+      6,
+      3,
+      6
+    ]
+  ],
+  "second": [
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      4
+    ],
+    [
+      2,
+      2,
+      6
+    ],
+    [
+      3,
+      4,
+      0
+    ],
+    [
+      4,
+      3,
+      5
+    ],
+    [
+      5,
+      6,
+      1
+    ],
+    [
+      6,
+      5,
+      3
+    ]
+  ],
+  "essential_pairs": [
+    {
+      "coordinate": 0,
+      "first_index": 0,
+      "second_index": 5,
+      "first": [
+        0,
+        0,
+        0
+      ],
+      "second": [
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "coordinate": 1,
+      "first_index": 1,
+      "second_index": 0,
+      "first": [
+        1,
+        2,
+        1
+      ],
+      "second": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "coordinate": 2,
+      "first_index": 0,
+      "second_index": 0,
+      "first": [
+        0,
+        0,
+        0
+      ],
+      "second": [
+        0,
+        0,
+        2
+      ]
+    }
+  ],
+  "cross_coordinate_conflict_table": [
+    [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  ],
+  "metrics": {
+    "first_size": 7,
+    "second_size": 7,
+    "union_size": 14,
+    "dimension": 3,
+    "all_six_coordinate_margins_full_C7": true,
+    "fixed_coordinate_separators": 0,
+    "every_single_coordinate_omission_destroys_separation": true,
+    "first_nonaffine": true,
+    "second_nonaffine": true,
+    "matching_search_nodes": 13,
+    "tiny_candidate_points": 343,
+    "allowed_points": 180,
+    "seconds": 0.001753905788064003,
+    "beats_actual_M300": false,
+    "milp_calls": 0,
+    "old_experiment_reruns": 0
+  },
+  "novelty": "new-to-project finite physical example; general pair-conditioned criterion classical/routine, not a new graph-coding theory",
+  "wandb": "https://wandb.ai/jingzheshi/seven-ring-shannon/runs/yr09ywaq"
+}

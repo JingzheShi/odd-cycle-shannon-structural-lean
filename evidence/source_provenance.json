@@ -1,0 +1,549 @@
+{
+  "local_modules": {
+    "C7Improvement.Capacity": {
+      "file": "lean/C7Improvement/Capacity.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.LayeredNumbers": {
+      "file": "lean/C7Improvement/LayeredNumbers.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.GraphRealisations": {
+      "file": "lean/C7Improvement/GraphRealisations.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.CertificateProfiles": {
+      "file": "lean/C7Improvement/CertificateProfiles.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.HigherGadgets": {
+      "file": "lean/C7Improvement/HigherGadgets.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.GaoFrame": {
+      "file": "lean/C7Improvement/GaoFrame.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.ProfileArithmetic": {
+      "file": "lean/C7Improvement/ProfileArithmetic.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.CountC4": {
+      "file": "lean/C7Improvement/CountC4.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4BlockCount": {
+      "file": "lean/C7Improvement/C4BlockCount.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Source": {
+      "file": "lean/C7Improvement/C4Source.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Geometry": {
+      "file": "lean/C7Improvement/C4Geometry.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Atoms": {
+      "file": "lean/C7Improvement/C4Atoms.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4AtomData": {
+      "file": "lean/C7Improvement/C4AtomData.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Data": {
+      "file": "lean/C7Improvement/C4Data.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Atoms10Data": {
+      "file": "lean/C7Improvement/Atoms10Data.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C3Data": {
+      "file": "lean/C7Improvement/C3Data.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C1Data": {
+      "file": "lean/C7Improvement/C1Data.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Exchanges": {
+      "file": "lean/C7Improvement/Exchanges.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.BaseLists": {
+      "file": "lean/C7Improvement/BaseLists.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.ExplicitLift": {
+      "file": "lean/C7Improvement/ExplicitLift.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Ordinary": {
+      "file": "lean/C7Improvement/Ordinary.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Profile": {
+      "file": "lean/C7Improvement/Profile.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Heterogeneous": {
+      "file": "lean/C7Improvement/Heterogeneous.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.PortRealisation": {
+      "file": "lean/ShannonBounds/PortRealisation.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.Layered": {
+      "file": "lean/ShannonBounds/Layered.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.Lift": {
+      "file": "lean/ShannonBounds/Lift.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.Defs": {
+      "file": "lean/ShannonBounds/Defs.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC7": {
+      "file": "lean/ShannonBounds/BaseC7.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC7Data": {
+      "file": "lean/ShannonBounds/BaseC7Data.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.SideSets": {
+      "file": "lean/C7Improvement/SideSets.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Automorphism": {
+      "file": "lean/C7Improvement/Automorphism.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.CapCertC7": {
+      "file": "lean/ShannonBounds/CapCertC7.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.CertC7": {
+      "file": "lean/ShannonBounds/CertC7.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.Reindex": {
+      "file": "lean/ShannonBounds/Reindex.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.Substitutions": {
+      "file": "lean/ShannonBounds/Substitutions.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.TerminalCodes": {
+      "file": "lean/ShannonBounds/TerminalCodes.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.CapC7": {
+      "file": "lean/ShannonBounds/CapC7.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.CycleC7": {
+      "file": "lean/ShannonBounds/CycleC7.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.Flatten": {
+      "file": "lean/ShannonBounds/Flatten.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.Decimal": {
+      "file": "lean/ShannonBounds/Decimal.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.PackedIndex": {
+      "file": "lean/C7Improvement/PackedIndex.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.FastNeighbors": {
+      "file": "lean/C7Improvement/FastNeighbors.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.PackedNeighborhood": {
+      "file": "lean/C7Improvement/PackedNeighborhood.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.BitsetBuckets": {
+      "file": "lean/C7Improvement/BitsetBuckets.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Histogram": {
+      "file": "lean/C7Improvement/Histogram.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.GaoSetFormulas": {
+      "file": "lean/C7Improvement/GaoSetFormulas.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.BlockDisjoint": {
+      "file": "lean/C7Improvement/BlockDisjoint.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.RecursiveFrames": {
+      "file": "lean/C7Improvement/RecursiveFrames.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.CountC2": {
+      "file": "lean/C7Improvement/CountC2.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C2Geometry": {
+      "file": "lean/C7Improvement/C2Geometry.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Atoms10Bridge": {
+      "file": "lean/C7Improvement/Atoms10Bridge.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Atoms10": {
+      "file": "lean/C7Improvement/Atoms10.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.G15Oriented": {
+      "file": "lean/C7Improvement/G15Oriented.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.G15": {
+      "file": "lean/C7Improvement/G15.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.G15Data": {
+      "file": "lean/C7Improvement/G15Data.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.CountC1": {
+      "file": "lean/C7Improvement/CountC1.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.GaoProfile": {
+      "file": "lean/C7Improvement/GaoProfile.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.BaseXBridge": {
+      "file": "lean/C7Improvement/BaseXBridge.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.OrdinaryTransversal": {
+      "file": "lean/C7Improvement/OrdinaryTransversal.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C2Data": {
+      "file": "lean/C7Improvement/C2Data.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.BlockCountGeneral": {
+      "file": "lean/C7Improvement/BlockCountGeneral.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.BlockCountOutside": {
+      "file": "lean/C7Improvement/BlockCountOutside.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.BlockCount15": {
+      "file": "lean/C7Improvement/BlockCount15.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Flags15": {
+      "file": "lean/C7Improvement/Flags15.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.SparseCount": {
+      "file": "lean/C7Improvement/SparseCount.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Outside15": {
+      "file": "lean/C7Improvement/Outside15.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.CountC3": {
+      "file": "lean/C7Improvement/CountC3.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C3Geometry": {
+      "file": "lean/C7Improvement/C3Geometry.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C3Additive": {
+      "file": "lean/C7Improvement/C3Additive.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C3Neutral": {
+      "file": "lean/C7Improvement/C3Neutral.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C3Sum": {
+      "file": "lean/C7Improvement/C3Sum.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C3Numeric": {
+      "file": "lean/C7Improvement/C3Numeric.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Acceptance": {
+      "file": "lean/C7Improvement/C4Acceptance.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Tags": {
+      "file": "lean/C7Improvement/C4Tags.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Masks": {
+      "file": "lean/C7Improvement/C4Masks.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Weights": {
+      "file": "lean/C7Improvement/C4Weights.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.FourHistogram": {
+      "file": "lean/C7Improvement/FourHistogram.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Disjoint": {
+      "file": "lean/C7Improvement/C4Disjoint.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.CardTotalDisjoint": {
+      "file": "lean/C7Improvement/CardTotalDisjoint.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4SizeData": {
+      "file": "lean/C7Improvement/C4SizeData.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.C4Numeric": {
+      "file": "lean/C7Improvement/C4Numeric.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "C7Improvement.Terminal": {
+      "file": "lean/C7Improvement/Terminal.lean",
+      "snapshot": "paper_and_lean_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.StrictDisplay": {
+      "file": "lean/ExplorationC13FrontierR03/StrictDisplay.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.Capacity": {
+      "file": "lean/ExplorationC13FrontierR03/Capacity.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.TypedTables": {
+      "file": "lean/ExplorationC13FrontierR03/TypedTables.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.TypedBase": {
+      "file": "lean/ExplorationC13FrontierR03/TypedBase.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.TypeModel": {
+      "file": "lean/ExplorationC13FrontierR03/TypeModel.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC13Sets": {
+      "file": "lean/ShannonBounds/BaseC13Sets.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC13Data": {
+      "file": "lean/ShannonBounds/BaseC13Data.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.ListChecks": {
+      "file": "lean/ExplorationC13FrontierR03/ListChecks.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.PublicLongCapacity": {
+      "file": "lean/ExplorationC13FrontierR03/PublicLongCapacity.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.PublicLong": {
+      "file": "lean/ExplorationC13FrontierR03/PublicLong.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.DagTail": {
+      "file": "lean/ExplorationC13FrontierR03/DagTail.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ExplorationC13FrontierR03.DagCode3": {
+      "file": "lean/ExplorationC13FrontierR03/DagCode3.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.CapC13": {
+      "file": "lean/ShannonBounds/CapC13.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.CycleC13": {
+      "file": "lean/ShannonBounds/CycleC13.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC13": {
+      "file": "lean/ShannonBounds/BaseC13.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC13Foot": {
+      "file": "lean/ShannonBounds/BaseC13Foot.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC13Ports": {
+      "file": "lean/ShannonBounds/BaseC13Ports.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC13PIndep": {
+      "file": "lean/ShannonBounds/BaseC13PIndep.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ShannonBounds.BaseC13Priv": {
+      "file": "lean/ShannonBounds/BaseC13Priv.lean",
+      "snapshot": "c13_explore_r01",
+      "modified_for_integration": false
+    },
+    "ActualRegion": {
+      "file": "lean/ActualRegion.lean",
+      "snapshot": "conceptual_r04_c13_structure",
+      "modified_for_integration": false
+    },
+    "StarRegion": {
+      "file": "lean/StarRegion.lean",
+      "snapshot": "conceptual_r04_c13_structure",
+      "modified_for_integration": false
+    },
+    "VoltageStar": {
+      "file": "lean/VoltageStar.lean",
+      "snapshot": "conceptual_r04_c13_structure",
+      "modified_for_integration": false
+    },
+    "MinorityRectangle": {
+      "file": "lean/MinorityRectangle.lean",
+      "snapshot": "conceptual_r04_c13_structure",
+      "modified_for_integration": false
+    },
+    "PhysicalStar": {
+      "file": "lean/PhysicalStar.lean",
+      "snapshot": "conceptual_r04_c13_structure",
+      "modified_for_integration": false
+    },
+    "ExplorationC7.Correlated.Witness": {
+      "file": "lean/ExplorationC7/Correlated/Witness.lean",
+      "snapshot": "c7_context_r02",
+      "modified_for_integration": false
+    },
+    "ExplorationC7.Correlated.Geometry": {
+      "file": "lean/ExplorationC7/Correlated/Geometry.lean",
+      "snapshot": "c7_context_r02",
+      "modified_for_integration": false
+    }
+  },
+  "new_module": "lean/StructuralRelease.lean",
+  "selected_local_module_count": 108,
+  "source_conflicts": [],
+  "frozen_sources_unchanged": true,
+  "compiled_artifacts_in_public_release": false
+}

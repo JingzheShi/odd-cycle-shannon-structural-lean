@@ -1,0 +1,155 @@
+{
+  "selected_declarations": {
+    "ShannonBounds.ExplorationC7.Correlated.sep_iff_pair_conditioned": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.sep_rectangles_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.coupling_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.coupling_cardinality": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.coupling_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.coupling_gain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.separation_projection_requires_surjective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.first_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "first_separators._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.second_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "second_separators._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.cross_separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "cross_separators._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.margins_full": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "margins_full._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.projected_separation_needs_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "essential_check._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.rectangular_hulls_not_separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "margins_full._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.first_not_affine": [
+      "propext",
+      "Quot.sound",
+      "first_not_affine._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.second_not_affine": [
+      "propext",
+      "Quot.sound",
+      "second_not_affine._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.actual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "cross_separators._native.native_decide.ax_1_1",
+      "first_separators._native.native_decide.ax_1_1",
+      "second_separators._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.actual_weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "cross_separators._native.native_decide.ax_1_1",
+      "first_separators._native.native_decide.ax_1_1",
+      "literal_cardinalities._native.native_decide.ax_1_1",
+      "second_separators._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.actual_union_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "cross_separators._native.native_decide.ax_1_1",
+      "first_separators._native.native_decide.ax_1_1",
+      "second_separators._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.actual_fourteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "cross_separators._native.native_decide.ax_1_1",
+      "first_separators._native.native_decide.ax_1_1",
+      "literal_cardinalities._native.native_decide.ax_1_1",
+      "second_separators._native.native_decide.ax_1_1"
+    ],
+    "ShannonBounds.ExplorationC7.Correlated.illustrative_capacity_root": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "cross_separators._native.native_decide.ax_1_1",
+      "first_separators._native.native_decide.ax_1_1",
+      "literal_cardinalities._native.native_decide.ax_1_1",
+      "second_separators._native.native_decide.ax_1_1"
+    ]
+  },
+  "union": [
+    "Classical.choice",
+    "Quot.sound",
+    "cross_separators._native.native_decide.ax_1_1",
+    "essential_check._native.native_decide.ax_1_1",
+    "first_not_affine._native.native_decide.ax_1_1",
+    "first_separators._native.native_decide.ax_1_1",
+    "literal_cardinalities._native.native_decide.ax_1_1",
+    "margins_full._native.native_decide.ax_1_1",
+    "propext",
+    "second_not_affine._native.native_decide.ax_1_1",
+    "second_separators._native.native_decide.ax_1_1"
+  ],
+  "native_compiler_trust": [
+    "cross_separators._native.native_decide.ax_1_1",
+    "essential_check._native.native_decide.ax_1_1",
+    "first_not_affine._native.native_decide.ax_1_1",
+    "first_separators._native.native_decide.ax_1_1",
+    "literal_cardinalities._native.native_decide.ax_1_1",
+    "margins_full._native.native_decide.ax_1_1",
+    "second_not_affine._native.native_decide.ax_1_1",
+    "second_separators._native.native_decide.ax_1_1"
+  ],
+  "native_compiler_trust_count": 8,
+  "unexpected_axioms": [],
+  "generic_formalization_is_standard_logic_only": true,
+  "compiler_trust_is_part_of_selected_finite_witness_model": true
+}

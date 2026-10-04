@@ -1,0 +1,8 @@
+{
+  "scope": "Loaded portable Lake configuration only; no old-module build.",
+  "command": "lake -d lean env lean --version",
+  "returncode": 0,
+  "lean_version": "4.32.2",
+  "wandb_run": "eavbs195",
+  "wandb_url": "https://wandb.ai/jingzheshi/seven-ring-shannon/runs/eavbs195"
+}

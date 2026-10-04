@@ -1,0 +1,452 @@
+{
+  "schema": "c7-explicit-recipe-v2",
+  "status": "Construction data plus an auditable mathematical dependency graph; not a proof-assistant theorem.",
+  "coordinate_convention": "Concatenate left coordinates before right coordinates; base code n has coordinate i=(n//7**i)%7.",
+  "profile_order": [
+    "a",
+    "t",
+    "s",
+    "o",
+    "h",
+    "v"
+  ],
+  "label_order": [
+    "B",
+    "N",
+    "A",
+    "D",
+    "O",
+    "H",
+    "V"
+  ],
+  "label_sets": {
+    "B": "I minus selected centers R",
+    "N": "X0",
+    "A": "XV",
+    "D": "XH",
+    "O": "R",
+    "H": "PH",
+    "V": "PV"
+  },
+  "separation_pairs": [
+    "BO",
+    "BH",
+    "BV",
+    "NA",
+    "ND",
+    "NO",
+    "NH",
+    "NV",
+    "AD",
+    "AH",
+    "DV"
+  ],
+  "nodes": [
+    {
+      "id": "G5",
+      "op": "base",
+      "file": "sources/tandon/data/base_c7.json"
+    },
+    {
+      "id": "flipG5",
+      "op": "flip",
+      "input": "G5"
+    },
+    {
+      "id": "G10",
+      "op": "gao",
+      "left": "G5",
+      "right": "G5"
+    },
+    {
+      "id": "G10A",
+      "op": "gao",
+      "left": "flipG5",
+      "right": "G5"
+    },
+    {
+      "id": "G10D",
+      "op": "gao",
+      "left": "G5",
+      "right": "flipG5"
+    },
+    {
+      "id": "G15X",
+      "op": "gao",
+      "left": "G10",
+      "right": "G5"
+    },
+    {
+      "id": "G15AX",
+      "op": "gao",
+      "left": "G10A",
+      "right": "G5"
+    },
+    {
+      "id": "G15DX",
+      "op": "gao",
+      "left": "G10D",
+      "right": "flipG5"
+    },
+    {
+      "id": "G15het",
+      "op": "heterogeneous",
+      "left": "G10",
+      "right": "G5",
+      "J0": "G10",
+      "JH": "C1",
+      "JV": "C1"
+    },
+    {
+      "id": "G15Ahet",
+      "op": "heterogeneous",
+      "left": "G10A",
+      "right": "G5",
+      "J0": "G10A",
+      "JH": "C1",
+      "JV": "own:G10A"
+    },
+    {
+      "id": "flipG15Ahet",
+      "op": "flip",
+      "input": "G15Ahet"
+    },
+    {
+      "id": "G30n6",
+      "op": "heterogeneous",
+      "left": "G15X",
+      "right": "G15het",
+      "J0": "G15het",
+      "JH": "C2",
+      "JV": "C2"
+    },
+    {
+      "id": "G25n8",
+      "op": "heterogeneous",
+      "left": "G15AX",
+      "right": "G10D",
+      "J0": "G15Ahet",
+      "JH": "C2",
+      "JV": "C2"
+    },
+    {
+      "id": "G40n8",
+      "op": "heterogeneous",
+      "left": "G15DX",
+      "right": "G25n8",
+      "J0": "flipG15Ahet",
+      "JH": "C3",
+      "JV": "C2"
+    },
+    {
+      "id": "L30",
+      "op": "gao",
+      "left": "G15AX",
+      "right": "flipG15Ahet"
+    },
+    {
+      "id": "oldL30sibling",
+      "op": "heterogeneous",
+      "left": "G15AX",
+      "right": "flipG15Ahet",
+      "J0": "G15Ahet",
+      "JH": "C2",
+      "JV": "own:G15AX"
+    },
+    {
+      "id": "G25Rbeforeflip",
+      "op": "heterogeneous",
+      "left": "G15AX",
+      "right": "G10D",
+      "J0": "G15Ahet",
+      "JH": "C2",
+      "JV": "C3"
+    },
+    {
+      "id": "G25R",
+      "op": "flip",
+      "input": "G25Rbeforeflip"
+    },
+    {
+      "id": "G55",
+      "op": "heterogeneous",
+      "left": "L30",
+      "right": "G25R",
+      "J0": "oldL30sibling",
+      "JH": "C4",
+      "JV": "C4"
+    },
+    {
+      "id": "flipG55",
+      "op": "flip",
+      "input": "G55"
+    },
+    {
+      "id": "G15Afull",
+      "op": "heterogeneous",
+      "left": "G10A",
+      "right": "G5",
+      "J0": "G10A",
+      "JH": "C1",
+      "JV": "C1"
+    },
+    {
+      "id": "new_L30_sibling",
+      "op": "heterogeneous",
+      "left": "G15AX",
+      "right": "flipG15Ahet",
+      "J0": "G15Afull",
+      "JH": "C2",
+      "JV": "C2"
+    },
+    {
+      "id": "new_G40",
+      "op": "heterogeneous",
+      "left": "L30",
+      "right": "G10D",
+      "J0": "new_L30_sibling",
+      "JH": "C4",
+      "JV": "C4"
+    },
+    {
+      "id": "sourceJ30",
+      "op": "gao",
+      "left": "G15het",
+      "right": "G15het"
+    }
+  ],
+  "side_codebooks": {
+    "C1": {
+      "dimension": 10,
+      "set_constructor": {
+        "op": "automorphism_then_exchanges",
+        "main_code_of": "G10",
+        "automorphism": "T on each five-coordinate block",
+        "exchanges": "sources/tandon/data/base_c7.json:exchanges"
+      },
+      "neutral_reference": "G10",
+      "size": 134753,
+      "count": 27488
+    },
+    "C2": {
+      "dimension": 15,
+      "set_constructor": {
+        "op": "automorphism",
+        "main_code_of": "G15X",
+        "automorphism": "T on each five-coordinate block"
+      },
+      "neutral_reference": "G15X",
+      "size": 49495055,
+      "count": 12839823
+    },
+    "C3": {
+      "dimension": 15,
+      "set_constructor": {
+        "op": "auxiliary_set",
+        "gadget": "G15het"
+      },
+      "neutral_reference": "G15X",
+      "size": 49433743,
+      "count": 14045805
+    },
+    "C4": {
+      "dimension": 30,
+      "set_constructor": {
+        "op": "automorphism",
+        "main_code_of": "sourceJ30",
+        "automorphism": "T on each five-coordinate block"
+      },
+      "neutral_reference": "L30",
+      "size": 2455726444728097,
+      "count": 841760069965664
+    }
+  },
+  "rules": {
+    "S3b": [
+      [
+        "BBB",
+        "BHA",
+        "NAV",
+        "NDH",
+        "NVD",
+        "ABH",
+        "AHN",
+        "AHD",
+        "DBV",
+        "DVN",
+        "DVD",
+        "HND",
+        "HDN",
+        "HDD",
+        "VNA",
+        "VAB",
+        "VDA"
+      ],
+      [
+        "BVD",
+        "NNN",
+        "NVA",
+        "ANH",
+        "ADH",
+        "AHN",
+        "DNV",
+        "DDH",
+        "DHN",
+        "HVD"
+      ],
+      [
+        "NBA",
+        "NAN",
+        "ABB",
+        "AAV",
+        "AHA"
+      ],
+      [
+        "NBD",
+        "NDN",
+        "DBB",
+        "DAV",
+        "DHA"
+      ],
+      [],
+      [
+        "NNH",
+        "NHN",
+        "HNN",
+        "HVV"
+      ],
+      [
+        "NNV",
+        "NVN",
+        "VNN",
+        "VVV"
+      ]
+    ],
+    "K4a": [
+      "BBBB",
+      "BNVB",
+      "BAHB",
+      "BDVB",
+      "BHNB",
+      "BHDB",
+      "BVAB",
+      "NBBV",
+      "NNVH",
+      "NAVH",
+      "NDHH",
+      "NHNH",
+      "NHAH",
+      "NVDV",
+      "ABBV",
+      "ANHH",
+      "AAVH",
+      "ADHH",
+      "AHAH",
+      "AVNH",
+      "AVDH",
+      "DBBH",
+      "DNVV",
+      "DAVV",
+      "DDHV",
+      "DHNV",
+      "DHAV",
+      "DVDV",
+      "HBBA",
+      "HNVD",
+      "HAHD",
+      "HAVN",
+      "HDHN",
+      "HDVD",
+      "HHNN",
+      "HHND",
+      "HHAN",
+      "HHDD",
+      "HVAD",
+      "HVDN",
+      "VBBN",
+      "VBBD",
+      "VNVN",
+      "VNVA",
+      "VAHA",
+      "VDVA",
+      "VHDA",
+      "VVNA",
+      "VVAA"
+    ],
+    "K2": [
+      "BB",
+      "HN",
+      "NH",
+      "HD",
+      "VA",
+      "DV",
+      "AH"
+    ]
+  },
+  "outputs": {
+    "simple": {
+      "op": "K2_after_S3b",
+      "inputs": [
+        "G30n6",
+        "flipG55",
+        "flipG55"
+      ]
+    },
+    "strong": {
+      "op": "K2_after_S3b",
+      "inputs": [
+        "new_G40",
+        "flipG55",
+        "flipG55"
+      ]
+    },
+    "published_baseline": {
+      "op": "K4a_after_S3b",
+      "inputs": [
+        "G30n6",
+        "flipG55",
+        "G40n8"
+      ]
+    }
+  },
+  "obligations": [
+    {
+      "id": "BASE",
+      "required": "Five-dimensional gadget definition including private pairs and transversals",
+      "evidence": "sources/tandon/data/base_c7.json; tools/recompute_counts.py"
+    },
+    {
+      "id": "GAO",
+      "required": "Ordinary Gao product lemma, including propagated private pairs",
+      "evidence": "docs/CONSTRUCTION_zh.md; arXiv:2608.30273v1 Lemma 1",
+      "formal_status": "not compiled here"
+    },
+    {
+      "id": "HET",
+      "required": "Heterogeneous auxiliary-set lemma with fixed left/right gadgets",
+      "evidence": "docs/CONSTRUCTION_zh.md; arXiv:2608.30273v1 Theorem 1",
+      "formal_status": "not compiled here"
+    },
+    {
+      "id": "IDENTITY",
+      "required": "Ordered transversals for J0 and neutral reference for side counts",
+      "evidence": "tools/verify_recipe.py canonical set-expression equalities; logs/recipe_verification.json"
+    },
+    {
+      "id": "COUNTS",
+      "required": "Recompute C1-C4 from the actual five-dimensional sets",
+      "evidence": "tools/recompute_counts.py; logs/recomputed_counts.json"
+    },
+    {
+      "id": "FINAL",
+      "required": "Phi, S3b and K2/K4a separation and exact arithmetic",
+      "evidence": "tools/verify_recipe.py; research/verify_improvement.py"
+    },
+    {
+      "id": "LEAN",
+      "required": "End-to-end Lean theorem for this new result",
+      "evidence": null,
+      "formal_status": "NOT PROVIDED / NOT COMPILED"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "One targeted review of selected release content before public creation/push.",
+  "new_repo_only": true,
+  "existing_repository_changes": false,
+  "included": [
+    "selected permissive Lean sources",
+    "mathematical recipe inputs",
+    "accepted audit excerpts",
+    "new paper and LaTeX",
+    "portable build configuration"
+  ],
+  "excluded": [
+    "private history",
+    "build caches and packages",
+    "olean artifacts",
+    "credentials and .env files",
+    "user upload archives",
+    "third-party PDFs",
+    "unrelated cycle optimizations"
+  ],
+  "license": "Apache-2.0 with original source notices retained",
+  "paper_claims": "C13 exact local joint region; existing strict C7/C13 bounds unchanged; classical C7 appendix; no new-round capacity gain"
+}

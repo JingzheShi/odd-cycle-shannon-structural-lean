@@ -1,0 +1,12 @@
+{
+  "scope": "Only the new StructuralRelease aggregate compiled against locally copied exact-source accepted artifacts.",
+  "source_scope": "All 108 selected local transitive sources copied without changes; no snapshot byte differences.",
+  "returncode": 0,
+  "seconds": 1.817198165692389,
+  "wandb_run": "2xcqsemp",
+  "wandb_url": "https://wandb.ai/jingzheshi/seven-ring-shannon/runs/2xcqsemp",
+  "timestamp": "2026-10-04T15:12:30.697177+00:00",
+  "fresh_clean_clone_build_performed": false,
+  "old_counts_native_checks_or_searches_rerun": false,
+  "reader_reproduction": "cd lean && lake exe cache get && lake build StructuralRelease"
+}

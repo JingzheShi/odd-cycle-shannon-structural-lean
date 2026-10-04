@@ -1,0 +1,106 @@
+{
+  "declarations": {
+    "C13Structure.minority_rectangle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "C13Structure.directional_minority_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.cycle_transition._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.star_upper80": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.cycle_transition._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.balanced_star_exact": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.corner_sizes._native.native_decide.ax_1_1",
+      "C13Structure.cycle_transition._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.star_region_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.cycle_transition._native.native_decide.ax_1_1",
+      "C13Structure.ferrers_statistics._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.physicalCode_independent_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.physical_conflict._native.native_decide.ax_1_1",
+      "C13Structure.physical_injective._native.native_decide.ax_1_1",
+      "ShannonBounds.BaseC13.sconf_symm._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.actual_star_region_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.cycle_transition._native.native_decide.ax_1_1",
+      "C13Structure.ferrers_statistics._native.native_decide.ax_1_1",
+      "C13Structure.physical_conflict._native.native_decide.ax_1_1",
+      "C13Structure.physical_injective._native.native_decide.ax_1_1",
+      "ShannonBounds.BaseC13.sconf_symm._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.actual_star_upper80": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.cycle_transition._native.native_decide.ax_1_1",
+      "C13Structure.physical_conflict._native.native_decide.ax_1_1",
+      "C13Structure.physical_injective._native.native_decide.ax_1_1",
+      "ShannonBounds.BaseC13.sconf_symm._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.actual_star_attains80": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.corner_sizes._native.native_decide.ax_1_1",
+      "C13Structure.physical_conflict._native.native_decide.ax_1_1",
+      "C13Structure.physical_injective._native.native_decide.ax_1_1",
+      "ShannonBounds.BaseC13.sconf_symm._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.cycleCode_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.corner_physical_card._native.native_decide.ax_1_1"
+    ],
+    "C13Structure.cycleCode_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "C13Structure.physical_conflict._native.native_decide.ax_1_1",
+      "ShannonBounds.BaseC13.sconf_iff_conflict._native.native_decide.ax_1_1",
+      "ShannonBounds.BaseC13.sconf_refl._native.native_decide.ax_1_1",
+      "ShannonBounds.BaseC13.sconf_symm._native.native_decide.ax_1_1"
+    ]
+  },
+  "standard": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "native_unique": [
+    "C13Structure.corner_physical_card._native.native_decide.ax_1_1",
+    "C13Structure.corner_sizes._native.native_decide.ax_1_1",
+    "C13Structure.cycle_transition._native.native_decide.ax_1_1",
+    "C13Structure.ferrers_statistics._native.native_decide.ax_1_1",
+    "C13Structure.physical_conflict._native.native_decide.ax_1_1",
+    "C13Structure.physical_injective._native.native_decide.ax_1_1",
+    "ShannonBounds.BaseC13.sconf_iff_conflict._native.native_decide.ax_1_1",
+    "ShannonBounds.BaseC13.sconf_refl._native.native_decide.ax_1_1",
+    "ShannonBounds.BaseC13.sconf_symm._native.native_decide.ax_1_1"
+  ],
+  "native_new": 6,
+  "native_upstream": 3,
+  "unexpected": [],
+  "wandb_run": "hgo9gjy8"
+}

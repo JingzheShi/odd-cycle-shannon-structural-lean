@@ -1,0 +1,23 @@
+{
+  "pdf": "paper/c7_c13_structural_paper.pdf",
+  "source": "paper/main.tex",
+  "pages": 12,
+  "engine": "pdfLaTeX",
+  "passes": 3,
+  "returncode": 0,
+  "latex_warnings": 0,
+  "overfull_boxes": 0,
+  "underfull_boxes": 0,
+  "visually_inspected_pages": [
+    1,
+    3,
+    4,
+    7,
+    8,
+    9,
+    11
+  ],
+  "visual_findings": "Theorem, diagram, tables, module map and literal integers render without clipping or missing glyphs.",
+  "wandb_run": "0yylgu9r",
+  "wandb_url": "https://wandb.ai/jingzheshi/seven-ring-shannon/runs/0yylgu9r"
+}
