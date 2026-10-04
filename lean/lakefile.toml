@@ -1,0 +1,36 @@
+name = "odd-cycle-structural"
+version = "1.0.0"
+keywords = ["math", "graph-theory", "shannon-capacity"]
+defaultTargets = ["StructuralRelease"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "905b95818eb32af7874a58b427f50c1711a5e96c"
+
+[[lean_lib]]
+name = "ShannonBounds"
+globs = ["ShannonBounds.+"]
+
+[[lean_lib]]
+name = "C7Improvement"
+globs = ["C7Improvement.+"]
+
+[[lean_lib]]
+name = "ExplorationC13FrontierR03"
+globs = ["ExplorationC13FrontierR03.+"]
+
+[[lean_lib]]
+name = "ExplorationC7"
+globs = ["ExplorationC7.Correlated.+"]
+
+[[lean_lib]]
+name = "C13Structure"
+roots = ["MinorityRectangle", "VoltageStar", "StarRegion", "PhysicalStar", "ActualRegion"]
+
+[[lean_lib]]
+name = "StructuralRelease"
